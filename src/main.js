@@ -16,3 +16,7 @@ hamburger.classList.remove("hidden");
 lists.classList.add("hidden")
 
 })
+
+lists.addEventListener("click", () => {
+    lists.classList.add("hidden")
+})
