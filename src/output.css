@@ -1081,6 +1081,11 @@ video {
     padding-right: 0.5rem;
   }
 
+  .md\:py-10{
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
   .md\:pl-8{
     padding-left: 2rem;
   }
