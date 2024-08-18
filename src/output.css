@@ -995,6 +995,22 @@ video {
     visibility: visible;
   }
 
+  .sm\:gap-5{
+    gap: 1.25rem;
+  }
+
+  .sm\:gap-0{
+    gap: 0px;
+  }
+
+  .sm\:gap-10{
+    gap: 2.5rem;
+  }
+
+  .sm\:gap-1{
+    gap: 0.25rem;
+  }
+
   .sm\:space-y-2 > :not([hidden]) ~ :not([hidden]){
     --tw-space-y-reverse: 0;
     margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
@@ -1062,6 +1078,10 @@ video {
 
   .md\:justify-evenly{
     justify-content: space-evenly;
+  }
+
+  .md\:gap-10{
+    gap: 2.5rem;
   }
 
   .md\:space-y-2 > :not([hidden]) ~ :not([hidden]){
