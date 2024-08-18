@@ -989,6 +989,23 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.elative::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -30px;
+  width: 100%;
+  height: 4px;
+  background-color: hsl(136, 65%, 51%) ;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+  border-radius: 10px;
+}
+
+.group:hover .elative::after {
+  transform: scaleX(1);
+}
+
 .hover\:cursor-pointer:hover{
   cursor: pointer;
 }
@@ -1132,38 +1149,16 @@ video {
   .xl\:-right-\[900px\]{
     right: -900px;
   }
-
-  .xl\:-right-\[1000px\]{
-    right: -1000px;
-  }
 }
 
 @media (min-width: 1800px){
-  .xxl\:-right-\[1000px\]{
-    right: -1000px;
-  }
-
-  .xxl\:-right-\[1100px\]{
-    right: -1100px;
-  }
-
-  .xxl\:-right-\[100px\]{
-    right: -100px;
-  }
-
   .xxl\:-right-\[1200px\]{
     right: -1200px;
   }
 }
 
 @media (min-width: 2200px){
-  .xxxl\:-right-\[1100px\]{
-    right: -1100px;
-  }
-
   .xxxl\:-right-\[1500px\]{
     right: -1500px;
   }
 }
-
-
