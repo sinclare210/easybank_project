@@ -625,6 +625,10 @@ video {
   margin-top: 1rem;
 }
 
+.mt-5{
+  margin-top: 1.25rem;
+}
+
 .inline-block{
   display: inline-block;
 }
@@ -995,6 +999,10 @@ video {
     visibility: visible;
   }
 
+  .sm\:mb-5{
+    margin-bottom: 1.25rem;
+  }
+
   .sm\:gap-5{
     gap: 1.25rem;
   }
@@ -1046,6 +1054,14 @@ video {
 
   .md\:mr-6{
     margin-right: 1.5rem;
+  }
+
+  .md\:mb-0{
+    margin-bottom: 0px;
+  }
+
+  .md\:mt-0{
+    margin-top: 0px;
   }
 
   .md\:flex{
