@@ -31,7 +31,7 @@ Users should be able to:
 
 ![](./screencapture-easybank-project-xl2c-vercel-app-2024-08-21-19_22_00.png)(desktop image)
 
-![](./screencapture-easybank-project-xl2c-vercel-app-2024-08-21-19_22_00.png)
+
 
 
 ### Links
@@ -55,7 +55,7 @@ Users should be able to:
 
 This project, was built using tailwind css, i learnt about grid-cols, this tailwind property helps you control the number of card you want to see on a row depending on the screen size.
 
-To see how you can add code snippets, see below:
+Secondly, i learnt about javascript dom, because it was used to build the mobile navbar.
 
 
 ### Continued development
