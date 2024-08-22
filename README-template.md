@@ -53,7 +53,7 @@ Users should be able to:
 
 ### What I learned
 
-This project, was built using tailwind css, i learnt about grid-cols, this tailwind property helps you control the amont of card you want to see on a row depending on the screen size.
+This project, was built using tailwind css, i learnt about grid-cols, this tailwind property helps you control the number of card you want to see on a row depending on the screen size.
 
 To see how you can add code snippets, see below:
 
